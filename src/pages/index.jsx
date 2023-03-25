@@ -1,16 +1,11 @@
 import Card from "@/components/Card";
+import NavigationCard from "@/components/Navigation";
 
 export default function Home() {
   return (
     <div className='flex mt-4 max-w-4xl mx-auto gap-6'>
       <div className="w-1/3">
-        <Card>
-          <h2>Navigation</h2>
-          <a href="">Home</a>
-          <a href="">Friends</a>
-          <a href="">Saved Posts</a>
-          <a href="">Logout</a>
-        </Card>
+        <NavigationCard />
       </div>
       <div className="grow">
         <Card>form here</Card>
