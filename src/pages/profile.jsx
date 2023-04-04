@@ -120,6 +120,27 @@ export default function ProfilePage() {
                     </Card>
                 </div>
             )}
+            {isPhotos && (
+                <div>
+                    <Card>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
+                                <img className="h-full w-full object-contain" src="https://plus.unsplash.com/premium_photo-1661964141711-581a955b0f08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" />
+                            </div>
+                            <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
+                                <img className="h-full w-full object-contain" src="https://images.unsplash.com/photo-1662980834889-6f00c4c113f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="" />
+                            </div>
+                            <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
+                                <img className="h-full w-full object-contain" src="https://images.unsplash.com/photo-1678045446468-5187c927dac8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
+                            </div>
+                            <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
+                                <img className="h-full w-full object-contain" src="https://images.unsplash.com/photo-1628246591661-07f4b05f602c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="" />
+                            </div>
+                            
+                        </div>
+                    </Card>
+                </div>
+            )}
         </Layout>
     )
 }
